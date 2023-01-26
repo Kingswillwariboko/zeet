@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../../assets/Logo (1).svg"
 import Button from '../../components/Button/Button';
-
+import integration from "../../assets/integration 1.svg"
 
 import "./signup.scss"
 
@@ -10,7 +10,16 @@ function SignUp() {
   return (
     <div className='signup'>
         <div className='signup__desktop'>
+            <div className='signup__desktop-one'>
+                <img src={integration} alt=""/>
+            </div>
 
+            <div className='signup__desktop-two' >
+                <h3>One integration, <br />
+                  multiple services.</h3>
+
+                  <p>Seamless access to customers biodata and financial history in record time.</p>
+            </div>
         </div>
         <div className='signup__mobile'>
             <div className='signup__mobile-msg'>
