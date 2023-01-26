@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
+import ForgetPassword from './pages/ForgetPassword/ForgetPassword';
 
 
 import Login from './pages/login/Login';
@@ -23,6 +24,11 @@ const App = () => {
           <Route path="/signup" exact>
               <SignUp />
           </Route>
+
+          <Route path="/forget-password" exact>
+              <ForgetPassword />
+          </Route>
+
         </Switch>   
        </Router>
     </div>

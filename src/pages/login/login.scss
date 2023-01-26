@@ -27,7 +27,11 @@
             width: 40%;
             margin: 0 auto;
             padding: 1rem;
-            
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         &-msg{
@@ -131,6 +135,7 @@
             align-items: center;
             justify-content: center;
             margin-top: 2rem;
+            margin-bottom: 1rem;
 
             p{
                 font-family: 'Public Sans';
@@ -158,6 +163,7 @@
                     border: 0;
                     padding: 0;
                     margin-left: .5rem;
+                    
                     
             }
         }
