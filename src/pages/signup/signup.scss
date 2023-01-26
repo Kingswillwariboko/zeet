@@ -1,0 +1,109 @@
+.signup{
+    &__mobile{
+        padding: 2rem;
+
+        &-msg{
+            h4{
+                margin-top: 3rem;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 35px;
+                /* identical to box height, or 146% */
+
+
+                /* Grey Main */
+
+                color: #1F1F1F;
+
+            }
+
+            p{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+
+
+                /* Grey 4 */
+
+                color: #6A6A6A;
+
+            }
+        }
+
+        .signup__form{
+            margin-top: 2rem;
+
+
+            &-one{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 2.5rem;
+
+                label{
+                    
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* identical to box height, or 167% */
+    
+                    /* Grey 5 */
+                    color: #444444;
+                }
+                input{
+                    padding: 1rem;
+                    margin-top: 1rem;
+                    
+                }
+            }
+
+            p{
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        &-footer{
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+
+
+                /* Grey 4 */
+
+                color: #6A6A6A;
+            }
+            button{
+
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                color: #001AFF;
+                    background-color: inherit;
+                    border: 0;
+                    padding: 0;
+                    margin-left: .5rem;
+                    
+            }
+        }
+    }
+}

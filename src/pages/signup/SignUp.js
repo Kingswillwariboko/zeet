@@ -12,45 +12,51 @@ function SignUp() {
         <div className='signup__desktop'>
 
         </div>
+        <div className='signup__mobile'>
+            <div className='signup__mobile-msg'>
+                    <img src={logo} alt=""/>
+                    <h4>Welcome to ZeeH</h4>
+                    <p>Let’s get you up and running with ZeeH insight</p>
+            </div>
 
-        <div className='signup__msg'>
-                <img src={logo} alt=""/>
-                <h4>Hi, Welcome Back</h4>
+            <form className='signup__form'>
+                    <div className='signup__form-one'>
+                        <label htmlFor='email'>Email</label>
+                        
+                        <input 
+                        placeholder='johndoe@gmail.com'
+                        id="email"
+                        />
+                    </div>
+
+
+                    <div className='signup__form-one'>
+                        <label htmlFor='password'>Password</label>
+                        <input 
+                        placeholder='at least 8 characters'
+                        id="password"
+                        />
+                    </div>
+
+                    <div className='signup__form-one'>
+                        <label htmlFor='email'>Email</label>
+                        
+                        <input 
+                        placeholder='johndoe@gmail.com'
+                        id="email"
+                        />
+                    </div>
+
+                    <p>I agree to ZeeH’s terms and conditions and Privacy policy.</p>
+                    <Button>SignUp</Button>
+            </form>
+
+            <div className='signup__mobile-footer'>
+               <p>Have an account?</p>
+                <button>Sign in</button>
+            </div>
         </div>
-
-        <form className='signup__form'>
-                <div className='signup__form-one'>
-                    <label htmlFor='email'>Email</label>
-                    
-                    <input 
-                    placeholder='johndoe@gmail.com'
-                    id="email"
-                    />
-                </div>
-
-
-                <div className='signup__form-one'>
-                    <label htmlFor='password'>Password</label>
-                    <input 
-                    placeholder='at least 8 characters'
-                    id="password"
-                    />
-                </div>
-
-                <div className='signup__form-one'>
-                    <label htmlFor='email'>Email</label>
-                    
-                    <input 
-                    placeholder='johndoe@gmail.com'
-                    id="email"
-                    />
-                </div>
-        </form>
-
-        <div className='signup__footer'>
-                <p>Don’t have an account?</p>
-                <button>SignUp</button>
-        </div>
+        
     </div>
   )
 }
