@@ -29,12 +29,12 @@ function SideNav() {
             </button>
             <button>
               <img src={house} alt=""/>
-              Dashboard
+              Connect
             </button>
 
             <button>
               <img src={house} alt=""/>
-              Dashboard
+              Settings
             </button>
         </div>
     </div>
