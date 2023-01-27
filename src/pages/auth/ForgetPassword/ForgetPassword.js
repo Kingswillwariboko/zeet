@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from "../../assets/Logo (1).svg"
-import Button from '../../components/Button/Button';
+import logo from "../../../assets/Logo (1).svg"
+import Button from '../../../components/Button/Button';
 
 import "./forgetpassword.scss"
 
@@ -24,7 +24,7 @@ function ForgetPassword() {
                         id="email"
                         />
                     </div>
-                    <Button type="submit">Continue</Button>
+                    <Button className="forgetpassword__form-btn" type="submit">Continue</Button>
             </form>
 
             <div className='forgetpassword__mobile-footer'>
@@ -36,6 +36,14 @@ function ForgetPassword() {
             <div className='forgetpassword__footer-one'>
                <p>Have an account?</p>
                 <button>Sign in</button>
+            </div>
+
+            <div className='forgetpassword__footer-two'>
+                <p>©Zeeh Africa 2022</p>
+                
+                <p>Contact</p>
+                
+                <p>Privacy Policy</p>
             </div>
         </div>
         </div>

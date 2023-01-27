@@ -2,10 +2,10 @@ import React from 'react'
 
 import "./buttton.scss"
 
-function Button(props) {
+function Button({children, className}) {
   return (
-    <button className={`button ${props.className}`}>
-        {props.children}
+    <button className={`button ${className}`}>
+        {children}
     </button>
   )
 }

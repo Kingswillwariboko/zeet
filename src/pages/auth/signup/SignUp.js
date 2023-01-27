@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from "../../assets/Logo (1).svg"
-import Button from '../../components/Button/Button';
-import integration from "../../assets/integration 1.svg"
+import logo from "../../../assets/Logo (1).svg"
+import Button from '../../../components/Button/Button';
+import integration from "../../../assets/integration 1.svg"
 
 import "./signup.scss"
 

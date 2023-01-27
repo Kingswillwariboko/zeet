@@ -1,0 +1,94 @@
+.sidenav{
+    background-color: #000533;
+    width: 25%;
+    height: 100vh;
+    padding: 2rem;
+
+    &__header{
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        .logo{
+            width: 20%;
+            margin-left: 3rem;
+        }
+
+    }
+
+    &__info{
+        display: flex;
+        align-items: center;
+        
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        
+        width: 80%;
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        &-names{
+            margin-left: 1.6rem;
+        }
+        h4{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            /* identical to box height, or 157% */
+
+
+            /* White Main */
+
+            color: #FFFFFF;
+            
+
+        }
+
+        p{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            /* identical to box height, or 157% */
+
+
+            /* Grey 1 */
+
+            color: #D2D2D2;
+
+        }
+    }
+
+    &__menu{
+        display: flex;
+        flex-direction: column;
+
+        button{
+            margin-top: 2rem;
+            text-align: left;
+            background-color: inherit;
+            border: 0;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* identical to box height, or 188% */
+
+
+            /* Grey 3 */
+
+            color: #8F8F8F;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-right: 1rem;
+            }
+        }
+    }
+}
