@@ -1,0 +1,24 @@
+.topnav{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    background: #FFFFFF;
+    border-bottom: 0.3px solid #B2B2B2;  
+    width: 85%;
+    display: flex;
+    padding: 1rem;
+   
+   
+
+    &__search{
+        width: 30%;
+    
+        margin-left: 17rem;
+    }
+
+
+    &__notify{
+        position: absolute;
+        right: 15%;
+    }
+}
