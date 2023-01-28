@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../../components/Button/Button'
+import Password from '../../components/PasswordSettings/Password'
 import Profile from '../../components/ProfileSettings/Profile'
 import SideNav from '../../Layouts/SideNav/SideNav'
 import TopNav from '../../Layouts/TopBar/TopNav'
@@ -25,7 +26,7 @@ const Settings = () => {
             <hr/>
 
             <div>
-                <Profile />
+                <Password />
             </div>
         </div>
     </div>
