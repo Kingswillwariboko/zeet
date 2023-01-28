@@ -1,0 +1,36 @@
+.profile{
+    
+
+    &__one{
+        border-bottom: .5px solid #444444;
+        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        h3{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            /* identical to box height, or 188% */
+
+
+            /* Grey 5 */
+
+            color: #444444;
+            margin-bottom: 1rem;
+
+        }
+
+        p{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            /* identical to box height, or 157% */
+            /* Grey 4 */
+            color: #6A6A6A;
+        }
+    }
+}

@@ -1,0 +1,256 @@
+.dashboard{
+    position: absolute;
+    left: 22.5%;
+    top: 15%;
+    width: 80%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-height: 100vh;
+   
+
+    &__header{
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0rem;
+
+        &-one{
+            h4{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height, or 150% */
+                /* Grey 5 */
+                color: #444444;
+
+            }
+            p{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                /* identical to box height, or 157% */
+                /* Grey 4 */
+                color: #6A6A6A;
+                margin-top: 1rem;
+            }
+        }
+
+        &-two{
+            display: flex;
+            align-items: center;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            
+            /* identical to box height, or 133% */
+
+            
+
+            /* Grey Main */
+
+            color: #1F1F1F;
+
+            .filter{
+                margin-left: 1rem;
+                border: 1px solid #8F8F8F;
+                border-radius: 10px;
+                padding: .6rem;
+
+            }
+        }
+    }
+
+    &__info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-bottom: 0;
+        &-one{
+            display: flex;
+            align-items: center;
+            padding: .7rem;
+            background: #E2E5FF;
+            border-radius: 16px;
+            padding-right: 2rem;
+            width: 32%;
+
+            .image{
+                background: linear-gradient(135deg, rgba(143, 154, 255, 0) 0%, rgba(143, 154, 255, 0.24) 97.35%);
+                padding: .5rem;
+                border-radius: 20px;
+                margin-right: 2rem;
+            }
+
+           
+            h2{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+                /* identical to box height, or 150% */
+
+                text-align: center;
+
+                /* Blue 8 */
+
+                color: #0011AA;
+
+            }
+
+            p{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 22px;
+                /* identical to box height, or 157% */
+
+                text-align: center;
+
+                /* Blue 8 */
+
+                color: #0011AA;
+
+            }
+        }
+
+        &-two{
+            display: flex;
+            align-items: center;
+            padding: .7rem;
+            background: #CAFDF5;
+            border-radius: 16px;
+            padding-right: 2rem;
+            width: 32%;
+
+            .image{
+                background: linear-gradient(135deg, rgba(0, 184, 217, 0) 0%, rgba(0, 184, 217, 0.24) 97.35%);
+                padding: .5rem;
+                border-radius: 20px;
+                margin-right: 2rem;
+            }
+
+           
+            h2{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+                /* identical to box height, or 150% */
+
+                text-align: center;
+
+                /* Blue 8 */
+
+                color: #003768;
+
+            }
+
+            p{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 22px;
+                /* identical to box height, or 157% */
+
+                text-align: center;
+
+                /* Blue 8 */
+
+                color: #003768;
+
+            }
+        }
+
+        &-three{
+            display: flex;
+            align-items: center;
+            padding: .7rem;
+            background: #CAFDF5;
+            border-radius: 16px;
+            padding-right: 2rem;
+            width: 32%;
+
+            .image{
+                background: linear-gradient(135deg, rgba(0, 184, 217, 0) 0%, rgba(0, 184, 217, 0.24) 97.35%);
+                padding: .5rem;
+                border-radius: 20px;
+                margin-right: 2rem;
+            }
+
+           
+            h2{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 48px;
+                /* identical to box height, or 150% */
+
+                text-align: center;
+
+                /* Blue 8 */
+
+                color: #003768;
+
+            }
+
+            p{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 22px;
+                /* identical to box height, or 157% */
+
+                text-align: center;
+
+                /* Blue 8 */
+
+                color: #003768;
+
+            }
+        }
+    }
+
+    &__chart{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 2rem;
+
+        &-one{
+            width: 57%;
+            margin-right: 3rem;
+            margin-top: 1rem;
+            
+
+            img{
+                width: 100%;
+            }
+        }
+        &-two{
+            width: 32%;
+           
+
+            img{
+                width: 90%;
+            }
+        }
+    }
+}
