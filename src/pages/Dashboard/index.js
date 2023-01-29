@@ -4,6 +4,8 @@ import TopNav from '../../Layouts/TopBar/TopNav'
 import cards from "../../assets/checks.svg"
 import yearsales from "../../assets/YearlySales.svg"
 import chart from "../../assets/ReservationStats.svg"
+import down from "../../assets/Vector 5.svg"
+import calender from "../../assets/Calendar_Days.svg"
 
 
 import "./dashboard.scss"
@@ -22,7 +24,9 @@ function Dashboard() {
             <div className='dashboard__header-two'>
             Filter by
             <div className='filter'>
+              <img src={calender} alt=""/>
               <p>Last 30 days</p>
+              <img src={down} alt=""/>
             </div>
             </div>
           </div>

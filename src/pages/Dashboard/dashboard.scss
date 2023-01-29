@@ -66,7 +66,12 @@
                 border: 1px solid #8F8F8F;
                 border-radius: 10px;
                 padding: .6rem;
+                display: flex;
+                align-items: center;
 
+                p{
+                    margin-right: .5rem;
+                }
             }
         }
     }
@@ -235,7 +240,7 @@
         margin-left: 2rem;
 
         &-one{
-            width: 57%;
+            width: 47%;
             margin-right: 3rem;
             margin-top: 1rem;
             
@@ -245,7 +250,7 @@
             }
         }
         &-two{
-            width: 32%;
+            width: 30%;
            
 
             img{

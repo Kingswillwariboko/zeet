@@ -4,6 +4,7 @@ import SearchBar from '../Search/SearchBar'
 import filter from "../../assets/Vector (1).svg"
 import frame from "../../assets/Frame 14.svg"
 import dot from "../../assets/dot.svg"
+import down from "../../assets/Vector 5.svg"
 
 import "./backaccounts.scss"
 
@@ -29,7 +30,7 @@ const BackAccounts = () => {
                 <img src={frame} alt=""/>
             </div>
             <div><SearchBar className="search"/></div>
-            <div className='status'>Status</div>
+            <div className='status'>Status <img src={down} alt=""/></div>
         </div>
 
         <div className='accounts__two'>
@@ -51,12 +52,12 @@ const BackAccounts = () => {
 
         <div>
         {accountData.map((item) => (
-        <div className='accounts__three' key={item.id}>
+        <div key={item.bankname} className='accounts__three'>
           <input
             type="checkbox"
             value={item.value}
             onChange={handleChange}
-            checked={selected.includes(item)}
+            
           />
           <label>
             <p>{item.bankname}</p>
