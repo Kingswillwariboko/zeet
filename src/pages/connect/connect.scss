@@ -36,6 +36,42 @@
 
             }
     }}
+
+    &__gtb{
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+
+        img{
+            border-radius: 20px;
+            margin-right: .5rem;
+        }
+
+        p{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            /* identical to box height, or 150% */
+
+
+            /* Blue 9 */
+
+            color: #000D80;
+
+        }
+    }
+
+    &__details{
+        img{
+            width: 40%;
+            margin-left: 2rem;
+        }
+        .second{
+            width: 48%;
+        }
+    }
 }
 
 .main{

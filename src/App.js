@@ -15,6 +15,7 @@ import Login from './pages/auth/login/Login';
 import NewPassword from './pages/auth/newPassword/NewPassword';
 import SignUp from './pages/auth/signup/SignUp';
 import Connect from './pages/connect/Connect';
+import SelectedConnect from './pages/connect/SelectedConnect';
 import Dashboard from './pages/Dashboard';
 import Settings from './pages/settings/Settings';
 
@@ -53,6 +54,10 @@ const App = () => {
 
           <Route path="/connect" exact>
               <Connect />
+          </Route>
+
+          <Route path="/selected-connect" exact>
+              <SelectedConnect />
           </Route>
 
           <Route path="/settings" exact>
