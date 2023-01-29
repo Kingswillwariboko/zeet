@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Button from '../../components/Button/Button'
 import Password from '../../components/PasswordSettings/Password'
 import Profile from '../../components/ProfileSettings/Profile'
@@ -8,6 +8,7 @@ import TopNav from '../../Layouts/TopBar/TopNav'
 import"./settings.scss"
 
 const Settings = () => {
+    const [settingMode, setSettingsMode] = useState(false)
   return (
     <div>
         <SideNav />
@@ -18,15 +19,15 @@ const Settings = () => {
                     <h3>Settings</h3>
 
                     <div className='settings__header-btn'>
-                        <button>Profile Settings</button>
-                        <button>Password</button>
+                        <button onClick={()=> setSettingsMode(false)}>Profile Settings</button>
+                        <button onClick={()=> setSettingsMode(true)}>Password</button>
                     </div>
             </div>
 
             <hr/>
 
             <div>
-                <Password />
+                {settingMode ? <Password /> : <Profile /> }
             </div>
         </div>
     </div>

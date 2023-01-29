@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
 .App {
   text-align: center;
 }
@@ -34,6 +35,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
 }
 
 @keyframes App-logo-spin {

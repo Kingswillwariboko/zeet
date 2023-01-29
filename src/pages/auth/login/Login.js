@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import logo from "../../../assets/Logo (1).svg"
 import Button from '../../../components/Button/Button';
 import design from "../../../assets/Design.svg"
@@ -6,6 +6,11 @@ import design from "../../../assets/Design.svg"
 import "./login.scss"
 
 function Login() {
+    const [isChecked, setIsChecked] = useState(false);
+    
+
+    
+
   return (
     <div className="login">
         <img className='design' src={design} alt=""/>
@@ -35,7 +40,14 @@ function Login() {
                 </div>
 
                 <div className='two'>
-                    <p>Remember me</p>
+                    <label>
+                        <input type="checkbox" checked={isChecked} 
+                        onChange={() => setIsChecked((prev) => !prev)}
+                        />
+                        <div className='lists'>
+                            Remember me
+                        </div>
+                    </label>
                     <button>Forgot password?</button>
                 </div>
 

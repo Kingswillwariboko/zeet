@@ -13,11 +13,21 @@
         margin: 1rem;
 
         .filter{
+            display: flex;
+            align-self: center;
             background: #1F3C71;
              border-radius: 5px;
              padding: .6rem;
              color: #ffff;
              margin-right: 1rem;
+
+             img{
+                margin-right: .5rem;
+             }
+
+             p{
+                margin-right: .5rem;
+             }
         }
 
         .search{
@@ -89,8 +99,20 @@
             /* Grey 3 */
 
             color: #8F8F8F;
-            width: 80%;
+            width: 86%;
             justify-content: space-between;   
+        }
+
+        .section{
+            display: flex;
+            align-items: center;
+            .status{
+                padding: .3rem;
+                margin-right: 1rem;
+                padding-left: 2rem;
+                border-radius: 8px;
+                padding-right: 2rem;
+            }
         }
     }
 }

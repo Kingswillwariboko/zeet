@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
 import { accountData } from '../../data';
 import SearchBar from '../Search/SearchBar'
+import filter from "../../assets/Vector (1).svg"
+import frame from "../../assets/Frame 14.svg"
+import dot from "../../assets/dot.svg"
 
 import "./backaccounts.scss"
 
@@ -20,7 +23,11 @@ const BackAccounts = () => {
   return (
     <div className='accounts'>
         <div className='accounts__one'>
-            <div className='filter'>filter</div>
+            <div className='filter'>
+                <img src={filter} alt=""/>
+                <p>filter</p>
+                <img src={frame} alt=""/>
+            </div>
             <div><SearchBar className="search"/></div>
             <div className='status'>Status</div>
         </div>
@@ -36,6 +43,7 @@ const BackAccounts = () => {
                         <p>Account Number</p>
                         <p>Account Balance</p>
                         <p>Status</p>
+                        
                     </div>
                 </label>
             </div>
@@ -52,9 +60,17 @@ const BackAccounts = () => {
           />
           <label>
             <p>{item.bankname}</p>
-            <p>{item.bankname}</p>
-            <p>{item.bankname}</p> 
-            <p className='status'>{item.status}</p>
+            <p>{item.number}</p>
+            <p>{item.balance}</p> 
+
+            <div className='section'>
+                <p style={{"background-color": item.background, "color": item.color}}  className='status'>
+                    {item.status}
+                    
+                </p>
+                <img src={dot} alt=""/>
+            </div>
+            
           </label>
         </div>
       ))}

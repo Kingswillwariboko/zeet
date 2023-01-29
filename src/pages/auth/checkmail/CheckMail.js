@@ -1,12 +1,16 @@
 import React from 'react'
 import phone from "../../../assets/amico.svg"
 import Button from "../../../components/Button/Button"
+import design from "../../../assets/up.svg"
+import design2 from "../../../assets/down.svg"
 
 import "./checkmail.scss"
 
 function CheckMail() {
   return (
     <div className='mail'>
+        <img className='down' src={design} alt=""/>
+        <img className='up' src={design2} alt=""/>
         <div className='mail__main'>
             <div className='mail__main-one'>
                 <div>

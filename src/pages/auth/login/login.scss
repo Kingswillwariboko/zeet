@@ -1,6 +1,6 @@
 .login{
     padding: 1rem;
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     background: #F7FAFC;
     height: 100vh;
 
@@ -20,7 +20,7 @@
         box-shadow: 0px 10px 30px rgba(90, 90, 90, 0.2);
         border-radius: 5px;
         padding: 2rem;
-        height: 80vh;
+        height: 90vh;
         margin-top: 1rem;
 
         @media (min-width: 768px){
@@ -70,7 +70,7 @@
         }
 
         form{
-            width: 70%;
+            width: 80%;
             margin: 0 auto;
             margin-top: 1rem;
             .one{
@@ -94,7 +94,7 @@
                 }
                 input{
                     padding: 1rem;
-                    
+                    border: 1px solid #6A6A6A;
                 }
             }
     
@@ -102,8 +102,27 @@
                 width: 100%;
                 margin: 0 auto;
                 margin-top: 1rem;
-    
-    
+
+                label{
+                    display: flex;
+                    align-items: center;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* identical to box height, or 167% */
+
+
+                    /* Grey 5 */
+
+                    color: #444444;
+                    
+                    input{
+                        margin-right: .5rem;
+                        border: 1px solid #6A6A6A;
+                    }
+                }
                 p{
                     font-family: 'Public Sans';
                     font-style: normal;

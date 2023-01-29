@@ -3,6 +3,21 @@
     &__desktop{
         display: none;
         background-color: #808CFF;
+        position: relative;
+
+        .down{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20%;
+        }
+
+        .up{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20%;
+        }
 
         @media (min-width: 768px){
             display: flex;
@@ -102,6 +117,27 @@
                 margin-top: 1rem;
             }
 
+            label{
+                margin-top: .5rem;
+                display: flex;
+                align-items: center;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+
+
+                /* Grey 5 */
+
+                color: #444444;
+                
+                input{
+                    margin-right: .5rem;
+                    border: 1px solid #6A6A6A;
+                }
+            }
 
             &-one{
                 display: flex;
@@ -127,7 +163,7 @@
                 input{
                     padding: 1rem;
                     margin-top: 1rem;
-                    
+                    border: 1px solid #6A6A6A;
                 }
             }
 

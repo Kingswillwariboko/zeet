@@ -3,8 +3,11 @@ import logo from "../../assets/Logo (1).svg"
 import menu from "../../assets/Menu.svg"
 import avatar from "../../assets/Avatar.svg"
 import house from "../../assets/Firefly.svg"
+import connect from "../../assets/vector.svg"
+import set from "../../assets/set.svg"
 
 import "./sidenav.scss"
+import { Link } from 'react-router-dom'
 
 function SideNav() {
   return (
@@ -23,19 +26,30 @@ function SideNav() {
         </div>
 
         <div className='sidenav__menu'>
+        <Link to="/dashboard">
             <button>
-              <img src={house} alt=""/>
-              Dashboard
+              
+                <img src={house} alt=""/>
+                Dashboard
+             
             </button>
+        </Link>
+        <Link to="/connect">
             <button>
-              <img src={house} alt=""/>
-              Connect
+              
+                <img src={connect} alt=""/>
+                Connect
+              
             </button>
-
-            <button>
-              <img src={house} alt=""/>
-              Settings
+        </Link>
+        <Link to="/settings">
+            <button >
+             
+                <img src={set} alt=""/>
+                Settings
+              
             </button>
+            </Link>
         </div>
     </div>
   )

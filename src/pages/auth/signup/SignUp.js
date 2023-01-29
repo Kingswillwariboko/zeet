@@ -1,16 +1,23 @@
-import React from 'react'
+import React,  {useState} from 'react'
 import logo from "../../../assets/Logo (1).svg"
 import Button from '../../../components/Button/Button';
 import integration from "../../../assets/integration 1.svg"
+import design from "../../../assets/up.svg"
+import design2 from "../../../assets/down.svg"
+
 
 import "./signup.scss"
 
 
 function SignUp() {
+    const [isChecked, setIsChecked] = useState(false);
   return (
     <div className='signup'>
+       
         <div className='signup__desktop'>
             <div className='signup__desktop-one'>
+               <img className='down' src={design} alt=""/>
+               <img className='up' src={design2} alt=""/>
                 <img src={integration} alt=""/>
             </div>
 
@@ -56,7 +63,16 @@ function SignUp() {
                         />
                     </div>
 
-                    <p>I agree to ZeeH’s terms and conditions and Privacy policy.</p>
+                    <label>
+                        <input type="checkbox" checked={isChecked} 
+                        onChange={() => setIsChecked((prev) => !prev)}
+                        />
+                        <div className='lists'>
+                          I agree to ZeeH’s terms and conditions and Privacy policy.
+                        </div>
+                    </label>
+
+                    <p></p>
                     <Button>SignUp</Button>
             </form>
 
