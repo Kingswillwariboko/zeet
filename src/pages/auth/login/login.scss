@@ -9,12 +9,14 @@
         top: 0;
         right: 0;
     }
-
-    .design2{
-        width: 25%;
+    &-footer{
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+
+    .design2{
+        width: 55%;
     }
     &__main{
         background: #FFFFFF;

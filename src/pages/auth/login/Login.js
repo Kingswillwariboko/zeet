@@ -15,7 +15,6 @@ function Login() {
   return (
     <div className="login">
         <img className='design' src={design} alt=""/>
-        <img className='design2' src={design2} alt=""/>
         <div className="login__main">
             <div className="login__main-msg">
                 <img src={logo} alt=""/>
@@ -62,6 +61,9 @@ function Login() {
                 <button>SignUp</button>
             </div>
         </div> 
+        <div className='login-footer'>
+             <img className='design2' src={design2} alt=""/>
+        </div>
     </div>
   )
 }
