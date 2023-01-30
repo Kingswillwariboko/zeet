@@ -15,6 +15,7 @@ function Login() {
   return (
     <div className="login">
         <img className='design' src={design} alt=""/>
+        <img className='design2' src={design2} alt=""/>
         <div className="login__main">
             <div className="login__main-msg">
                 <img src={logo} alt=""/>
@@ -60,8 +61,7 @@ function Login() {
                 <p>Don’t have an account?</p>
                 <button>SignUp</button>
             </div>
-        </div>
-        <img className='design2' src={design2} alt=""/>
+        </div> 
     </div>
   )
 }
