@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import logo from "../../../assets/Logo (1).svg"
 import Button from '../../../components/Button/Button';
 import design from "../../../assets/Design.svg"
+import design2 from "../../../assets/up.svg"
 
 import "./login.scss"
 
@@ -60,7 +61,7 @@ function Login() {
                 <button>SignUp</button>
             </div>
         </div>
-        <img className='design2' src={design} alt=""/>
+        <img className='design2' src={design2} alt=""/>
     </div>
   )
 }

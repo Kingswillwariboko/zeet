@@ -11,6 +11,7 @@
     }
 
     .design2{
+        width: 25%;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -148,7 +149,7 @@
         }
 
         &-footer{
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
             display: flex;
             align-items: center;
@@ -160,7 +161,7 @@
                 font-family: 'Public Sans';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 15px;
+                font-size: 10px;
                 line-height: 25px;
                 /* identical to box height, or 167% */
 
@@ -175,7 +176,7 @@
                 font-family: 'Public Sans';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 15px;
+                font-size: 10px;
                 line-height: 25px;
                 color: #001AFF;
                     background-color: inherit;
