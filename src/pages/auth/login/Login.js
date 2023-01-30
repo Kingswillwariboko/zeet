@@ -61,9 +61,9 @@ function Login() {
                 <button>SignUp</button>
             </div>
         </div> 
-        <div className='login-footer'>
+        {/* <div className='login-footer'>
              <img className='design2' src={design2} alt=""/>
-        </div>
+        </div> */}
     </div>
   )
 }
